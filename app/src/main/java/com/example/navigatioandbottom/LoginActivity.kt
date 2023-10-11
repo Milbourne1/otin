@@ -22,7 +22,7 @@ class LoginActivity : AppCompatActivity() {
             val loginUsername = binding.loginUsername.text.toString()
             val loginPassword = binding.loginPassword.text.toString()
             loginDatabase(loginUsername, loginPassword)
-            val intent = Intent(this, homeActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
         }
