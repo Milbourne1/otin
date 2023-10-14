@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             when(item.itemId){
                 R.id.bottom_home -> openFragment(HomeFragment())
                 R.id.bottom_cart -> openFragment(CartFragment())
-                R.id.bottom_map -> openFragment(MapFragment())
+                R.id.bottom_map -> openFragment(MapsFragment())
                 R.id.bottom_profile -> openFragment(ProfileFragment())
             }
             true

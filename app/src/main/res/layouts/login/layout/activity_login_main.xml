@@ -39,13 +39,14 @@
         android:id="@+id/gsBtn"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="124dp"
-        android:backgroundTint="#5E4B45"
-        android:layout_marginRight="24dp"
         android:layout_marginLeft="24dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginRight="24dp"
+        android:backgroundTint="#FF5757"
         android:elevation="0dp"
         android:text="GET STARTED"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
