@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_bg"
+    android:background="@drawable/lg"
     android:padding="16dp"
     tools:context=".LoginActivity">
 
@@ -13,13 +13,13 @@
         android:id="@+id/loginUsername"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="412dp"
+        android:layout_marginTop="360dp"
         android:hint="Username"
-        android:textColorHint="@color/green"
         android:maxLines="1"
         android:padding="12dp"
+        android:textColorHint="@color/green"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,15 +28,15 @@
         android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="16dp"
         android:hint="Password"
         android:inputType="textPassword"
-        android:textColorHint="@color/green"
         android:maxLines="1"
         android:padding="12dp"
+        android:textColorHint="@color/green"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginUsername" />
 

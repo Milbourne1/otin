@@ -7,6 +7,11 @@
         android:checkableBehavior="single">
 
         <item
+            android:id="@+id/nav_allproducts"
+            android:icon="@drawable/allproducts"
+            android:title="All Products"/>
+
+        <item
             android:id="@+id/nav_espresso"
             android:icon="@drawable/baseline_coffee_maker_24"
             android:title="Espresso"/>

@@ -28,6 +28,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         binding.drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
 
+        binding.fab.setOnClickListener {
+            openFragment(AllproductsFragment())
+        }
         binding.navigationDrawer.setNavigationItemSelectedListener (this)
         binding.bottomNavigation.background = null
         binding.bottomNavigation.setOnItemSelectedListener { item ->
@@ -42,15 +45,13 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         fragmentManager = supportFragmentManager
         openFragment(HomeFragment())
 
-        binding.fab.setOnClickListener {
-            Toast.makeText(this, "Categories", Toast.LENGTH_SHORT).show()
-        }
 
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
-            R.id.nav_espresso -> openFragment(TeaFragment())
+            R.id.nav_allproducts -> openFragment(AllproductsFragment())
+            R.id.nav_espresso -> openFragment(EspressoFragment())
             R.id.nav_iceblended-> openFragment(IceblendedFragment())
             R.id.nav_tea -> openFragment(TeaFragment())
             R.id.nav_dessert -> openFragment(DessertFragment())

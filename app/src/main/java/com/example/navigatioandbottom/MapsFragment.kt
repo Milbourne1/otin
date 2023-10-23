@@ -26,8 +26,8 @@ class MapsFragment : Fragment() {
          * install it inside the SupportMapFragment. This method will only be triggered once the
          * user has installed Google Play services and returned to the app.
          */
-        val dagupan = LatLng(16.0433, 120.3333)
-        googleMap.addMarker(MarkerOptions().position(dagupan).title("Marker in dagupan"))
+        val dagupan = LatLng(16.046468, 120.341261)
+        googleMap.addMarker(MarkerOptions().position(dagupan).title("Marker in Upang"))
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(dagupan))
         googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(dagupan, 13f))
     }
