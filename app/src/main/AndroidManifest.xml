@@ -13,6 +13,12 @@
         android:theme="@style/Theme.NavigatioAndBottom"
         tools:targetApi="31">
         <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".Login2"
+            android:exported="false" />
+        <activity
             android:name=".homeActivity"
             android:exported="false" />
         <activity

@@ -1657,15 +1657,10 @@
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
-
             </androidx.cardview.widget.CardView>
-
-
-
 
         </GridLayout>
 
     </LinearLayout>
-
 
 </ScrollView>
